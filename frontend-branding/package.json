@@ -1,0 +1,44 @@
+{
+  "name": "frontend-branding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prerollup": "rm -rf esm",
+    "rollup": "rollup --config",
+    "postrollup": "mkdir -p ../frontend/service-branding && rm -rf ../frontend/service-branding/* && cp -r esm/* ../frontend/service-branding"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^1.15.6",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/react": "16.8.13",
+    "@types/react-redux": "^7.1.1",
+    "@types/react-router-dom": "^4.3.4",
+    "classnames": "^2.2.6",
+    "deepmerge": "^3.3.0",
+    "glob": "^7.1.4",
+    "lit-element": "^2.2.0",
+    "react": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.3",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss-modules": "^2.0.1",
+    "rollup-pluginutils": "^2.8.1",
+    "ts-essentials": "^2.0.12"
+  },
+  "peerDependencies": {
+    "classnames": "^2.2.6",
+    "lit-element": "^2.2.0",
+    "react": "^16.8.6"
+  }
+}

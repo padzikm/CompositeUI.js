@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "declarationDir": "./paczki"
+  },
+  "include": [
+    "src",
+    "packages",
+    "service-components",
+    "typings",
+    "service-contracts",
+    "service-infrastructure"
+  ],
+  "exclude": ["node_modules"]
+}

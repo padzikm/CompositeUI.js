@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.formRow {
+    width: 100%;
+    margin: 10px;
+}
+
+.submitBtn {
+    width: 10%;
+    margin: 10px;
+}
