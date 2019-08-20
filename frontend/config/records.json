@@ -364,7 +364,14 @@
       "node_modules/babel-loader/lib/index.js??ref--6-oneOf-1!src/index.tsx 6462b1672291cc94e4eb56460f661092": 25,
       "node_modules/babel-loader/lib/index.js??ref--6-oneOf-1!service-components/sales/service-components-addProduct-Form.js 1f79c609aa6515c7ebda1767ce8158ae": 36,
       "node_modules/babel-loader/lib/index.js??ref--6-oneOf-2!node_modules/classnames/index.js": 38,
-      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-1!service-components/catalog/chunk-d8a06a3d.js": 40
+      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-1!service-components/catalog/chunk-d8a06a3d.js": 40,
+      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-2!node_modules/history/esm/history.js dd81c72bab8c5794c60d8b8e4deef287": 0,
+      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-2!node_modules/react-router/esm/react-router.js 92abe979e3fd5b22e26070f010cea696": 5,
+      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-2!node_modules/react-redux/es/index.js 2488c92d558b89fc43d9d1038166ef49": 17,
+      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-1!src/index.tsx 117fea26f42749699df087adccc954a7": 25,
+      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-1!service-components/sales/service-components-addProduct-Form.js 4cc4a7c6752dd543420b67d4edfdbd07": 28,
+      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-1!service-components/catalog/service-components-productList-Body.js c6b3dfe7ebb26a326667303683067644": 32,
+      "node_modules/babel-loader/lib/index.js??ref--6-oneOf-1!service-components/marketing/service-components-productDetails-Description.js 4e2df6c5dcfbeb3702d9b983b71f22dd": 36
     },
     "usedIds": {
       "0": 0,
@@ -496,7 +503,7 @@
     "usedIds": [
       0,
       1,
-      3,
+      2,
       4,
       5,
       8

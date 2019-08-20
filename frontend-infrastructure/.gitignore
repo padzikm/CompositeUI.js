@@ -28,5 +28,3 @@ service-configs/
 
 esm/
 .rpt2_cache/
-dts/
-!dts/package.json

@@ -27,8 +27,8 @@ function styleInject(css, ref) {
   }
 }
 
-var css = ".FormField_error__1coD2 {\n    color: red;\n}\n\n.FormField_input__3koQs {\n    margin-left: 10px;\n    margin-right: 10px;\n}";
-var styles = {"error":"FormField_error__1coD2","input":"FormField_input__3koQs"};
+var css = ".FormField_error__2k0Di {\n    color: red;\n}\n\n.FormField_input__tbi-7 {\n    margin-left: 10px;\n    margin-right: 10px;\n}";
+var styles = {"error":"FormField_error__2k0Di","input":"FormField_input__tbi-7"};
 styleInject(css);
 
 var FormField = function (props) {

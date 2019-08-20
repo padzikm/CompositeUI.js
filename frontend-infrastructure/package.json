@@ -6,6 +6,7 @@
   "scripts": {
     "prerollup": "rm -rf esm",
     "rollup": "rollup --config",
+    "rollup-windows": "rollup --config",
     "postrollup": "mkdir -p ../frontend/service-infrastructure && rm -rf ../frontend/service-infrastructure/* && cp -r esm/* ../frontend/service-infrastructure/"
   },
   "author": "",

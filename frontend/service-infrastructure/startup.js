@@ -35,17 +35,17 @@ function styleInject(css, ref) {
   }
 }
 
-var css = ".App_App__1TXmB {\n  text-align: center;\n}\n\n.App_App-logo__12BQp {\n  animation: App_App-logo-spin__2U7mW infinite 20s linear;\n  height: 40vmin;\n  pointer-events: none;\n}\n\n.App_App-header__PjySz {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App_App-link__3-dfs {\n  color: #61dafb;\n}\n\n@keyframes App_App-logo-spin__2U7mW {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n";
+var css = ".App_App__2okni {\n  text-align: center;\n}\n\n.App_App-logo__3-Vl9 {\n  animation: App_App-logo-spin__28cl0 infinite 20s linear;\n  height: 40vmin;\n  pointer-events: none;\n}\n\n.App_App-header__1kluZ {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App_App-link__1y8ZF {\n  color: #61dafb;\n}\n\n@keyframes App_App-logo-spin__28cl0 {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n";
 styleInject(css);
 
-var css$1 = ".Welcome_container__2ip-U {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}";
-var styles = {"container":"Welcome_container__2ip-U"};
+var css$1 = ".Welcome_container__3Zs_6 {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}";
+var styles = {"container":"Welcome_container__3Zs_6"};
 styleInject(css$1);
 
 var Welcome = function () { return (createElement("div", { className: styles.container },
     createElement("h1", null, "Welcome to SOA CompositeUI.js"),
     createElement(Header, null,
-        createElement("a", { href: 'https://github.com/padzikm/SoaCompositeUI.js' }, "https://github.com/padzikm/SoaCompositeUI.js")),
+        createElement("a", { href: 'https://github.com/padzikm/CompositeUI.js' }, "https://github.com/padzikm/CompositeUI.js")),
     createElement(Header, null,
         createElement("a", { href: 'mailto:padzikm@gmail.com' }, "mailto:padzikm@gmail.com")))); };
 

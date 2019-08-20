@@ -1,0 +1,1 @@
+rm -recurse -force esm; yarn rollup-windows; mkdir -path ../frontend/service-infrastructure -force; rm -recurse -force ../frontend/service-infrastructure/*; cp -recurse esm/* ../frontend/service-infrastructure/

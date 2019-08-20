@@ -1,1 +1,1 @@
-cd frontend && yarn start-express
+cd frontend; yarn start-express
